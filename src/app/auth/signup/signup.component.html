@@ -9,6 +9,7 @@
     email
     required
     #emaiInput="ngModel">
+   
     <mat-error *ngIf="emaiInput.hasError('required')">Field must not be Empty</mat-error>
     <mat-error *ngIf="!emaiInput.hasError('required')">Email is  invalid</mat-error>
    </mat-form-field>
